@@ -67,16 +67,15 @@ x = T.matrix()
 # labels
 y = T.ivector()
 
-#### HERE TO FILL WITH MODEL
+
 
 def train_fn(inputs, targets):
     return 0, 0
-# to replace with compiled function train_fn = theano.function(..., inputs=[x,y], updates=updates)
-# which returns  cost et accuracy
+
 
 def val_fn(inputs, targets):
     return 0, 0
-# en realite, fonction compilee val_fn = theano.function(..., inputs=[x, y])
+
 
 train_data_loader = Dataloader(train_images,batchsize)
 test_data_loader = Dataloader(test_images,batchsize)
