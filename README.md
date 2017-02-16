@@ -1,4 +1,7 @@
-# Resnet-Theano with Food 101 and Cifar-10 datasets (Update in progress)
+# Implementing Residual Networks with Theano and Lasagne - Food 101 and Cifar-10 datasets (Update in progress)
+
+Exploring the recent [MSRA ResNet](https://arxiv.org/abs/1603.05027) paper and the [Wide-Resnet](https://arxiv.org/pdf/1605.07146v1.pdf) paper with Simulation.  Exploring the full-preactivation residual layers, both normal and wide.
+
 
 ## Downloads
 
