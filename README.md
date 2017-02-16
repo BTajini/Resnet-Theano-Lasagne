@@ -2,7 +2,7 @@
 
 ## Downloads
 
-Download cifar-10 dataset :
+Download cifar-10 dataset & run :
 
 ```bash
 git clone https://github.com/BTajini/Resnet-Theano/.git
@@ -15,13 +15,14 @@ PATH=/usr/local/cuda-8.0-cudnn-5.1/bin:$PATH THEANO_FLAGS="device=gpu,floatX=flo
 
 ```
 
-Download the Food 101 dataset :
+Download the Food 101 dataset & run :
 
 ```bash
 git clone https://github.com/BTajini/Resnet-Theano/.git
 cd Resnet-Theano/
 wget http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz
 tar xvzf food-101.tar.gz
+
 PATH=/usr/local/cuda-8.0-cudnn-5.1/bin:$PATH THEANO_FLAGS="device=gpu,floatX=float32" python train.py
 
 ```
