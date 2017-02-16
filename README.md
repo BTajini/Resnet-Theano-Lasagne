@@ -1,4 +1,4 @@
-# resnet-food-101-theano  (Update in progress)
+# Resnet-Theano with Food 101 and Cifar-10 datasets (Update in progress)
 
 ## Downloads
 
