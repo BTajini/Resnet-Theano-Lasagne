@@ -1,21 +1,29 @@
-# resnet-food-101-theano
+# resnet-food-101-theano  (Update in progress)
 
 ## Downloads
 
 Download cifar-10 dataset :
 
 ```bash
-cd /sharedfiles
+git clone https://github.com/BTajini/Resnet-Theano/.git
+cd Resnet-Theano/
+cd Cifar-Part/
 wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 tar xvzf cifar-10-python.tar.gz
+
+PATH=/usr/local/cuda-8.0-cudnn-5.1/bin:$PATH THEANO_FLAGS="device=gpu,floatX=float32" python Deep_Residual_Learning_CIFAR-10.py
+
 ```
 
 Download the Food 101 dataset :
 
 ```bash
-cd /sharedfiles
+git clone https://github.com/BTajini/Resnet-Theano/.git
+cd Resnet-Theano/
 wget http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz
 tar xvzf food-101.tar.gz
+PATH=/usr/local/cuda-8.0-cudnn-5.1/bin:$PATH THEANO_FLAGS="device=gpu,floatX=float32" python train.py
+
 ```
 
 and resize dataset so that all images have same width and height :
