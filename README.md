@@ -47,9 +47,9 @@ PATH=/usr/local/cuda-8.0-cudnn-5.1/bin:$PATH THEANO_FLAGS="device=gpu,floatX=flo
 ```
 
 
-X_train (50000, 1, 28, 28)
-y_train (50000,)
-X_val (10000, 1, 28, 28)
-y_val (10000,)
-X_test (10000, 1, 28, 28)
-y_test (10000,)
+* X_train (50000, 1, 28, 28)
+* y_train (50000,)
+* X_val (10000, 1, 28, 28)
+* y_val (10000,)
+* X_test (10000, 1, 28, 28)
+* y_test (10000,)
